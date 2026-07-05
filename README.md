@@ -460,4 +460,4 @@ project/
 - Add a `memory` tool that lets the assistant persist facts about the
   user across sessions.
 - Support parallel (concurrent) execution of independent tool calls in
-  `execute_tool_calls` using `asyncio` for lower latency on batch calls.
+  `execute_tool_calls` using `asyncio` for lower latency on batch calls
