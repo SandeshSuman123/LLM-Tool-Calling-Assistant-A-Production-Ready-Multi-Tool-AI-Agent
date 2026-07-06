@@ -1,4 +1,14 @@
+
 # AI Personal Assistant — A Complete Tool-Calling Reference Project
+=======
+# LLM-Tool-Calling-Assistant-A-Production-Ready-Multi-Tool-AI-Agent
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/LLM-OpenRouter-8A2BE2)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Made with Pydantic](https://img.shields.io/badge/Validation-Pydantic-e92063?logo=pydantic&logoColor=white)
+>>>>>>> 57b0b7b318c32a64fdb3133f9a47335426b95409
 
 A production-quality, fully working Python implementation of an LLM-powered
 personal assistant that demonstrates **every major concept of LLM tool
@@ -8,6 +18,14 @@ on **free models** (Qwen, Llama, Gemma, DeepSeek, etc.).
 This project is designed to be **studied line by line**, extended, put on
 GitHub, and referenced in interviews.
 
+
+=======
+> 💡 Built as a hands-on deep dive into agentic tool-calling: schemas,
+> registries, dispatchers, multi-turn state, and streaming — the same
+> primitives used under the hood by LangChain, the OpenAI Assistants API,
+> and Anthropic's tool-use API.
+
+>>>>>>> 57b0b7b318c32a64fdb3133f9a47335426b95409
 ---
 
 ## Table of Contents
@@ -449,4 +467,8 @@ project/
 - Add a `memory` tool that lets the assistant persist facts about the
   user across sessions.
 - Support parallel (concurrent) execution of independent tool calls in
+<<<<<<< HEAD
   `execute_tool_calls` using `asyncio` for lower latency on batch calls.
+=======
+  `execute_tool_calls` using `asyncio` for lower latency on batch calls
+
